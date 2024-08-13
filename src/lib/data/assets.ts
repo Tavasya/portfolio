@@ -15,7 +15,7 @@ const Assets = {
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
-	Flask: a('flask.svg'),
+	Flask: a('flask.png'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
 	Neo4j: a('neo4j.svg'),
@@ -70,7 +70,12 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	OpenCv: a('opencv.png'),
+	LangChain: a('langchain.png'),
+	PyTorch: a('pytorch.png'),
+	MyQuizzAiLogo: a('myquizzailogo.png')
+
 };
 
 export default Assets;

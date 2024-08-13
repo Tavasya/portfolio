@@ -47,6 +47,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"dayjs": "^1.11.10"
+		"dayjs": "^1.11.10",
+		"katex": "^0.16.11"
 	}
 }
