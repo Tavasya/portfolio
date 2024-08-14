@@ -19,10 +19,10 @@ export const links: Array<{ platform: Platform; link: string }> = [
 
 	{
 		platform: Platform.Email,
-		link: 'tavasyag@gmail.com'
+		link: 'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFmNHRLmbDJLWxLKHDmhnjngmGTwmvGlXGjChgkxpvffkhbkGbZqQrdxqvPPxbNMmBFCg'
 	},
 
 
 ];
 
-export const skills = getSkills('py', 'js', 'css', 'html', 'reactjs', 'ts', 'java', 'nodejs', 'pandas', "pytorch", 'opencv', 'langchain', 'numpy');
+export const skills = getSkills('py', 'js', 'css', 'html', 'reactjs', 'ts', 'java', 'nodejs', 'pandas','opencv', 'langchain', 'numpy');

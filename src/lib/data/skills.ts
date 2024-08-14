@@ -138,21 +138,22 @@ export const items = [
 		category: 'library/frameworks'
 	}),
 	defineSkill({
-		slug: 'pytorch',
-		color: 'red',
-		description: "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing, originally developed by Meta AI and now part of the Linux Foundation umbrella.",
-		logo: Assets.PyTorch,
-		name: 'PyTorch',
+		slug: 'skl',
+		color: 'orange',
+		description: "Scikit-learn (formerly scikits.learn and also known as sklearn) is a free and open-source machine learning library for the Python programming language.[3] It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. Scikit-learn is a NumFOCUS fiscally sponsored project.",
+		logo: Assets.Sckitlearn,
+		name: 'Sckitlearn',
 		category: 'library/frameworks'
 	}),
 	defineSkill({
-		slug: 'flask',
-		color: 'black',
-		description: "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.",
-		logo: Assets.Flask,
-		name: 'Flask',
+		slug: 'mpl',
+		color: 'orange',
+		description: "Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.",
+		logo: Assets.MatPlotLib,
+		name: 'Matplotlib',
 		category: 'library/frameworks'
 	}),
+
 
 	
 	

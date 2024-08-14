@@ -3,12 +3,13 @@
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
+	import Icon from '$lib/components/Icon/Icon.svelte';
 </script>
 
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
+			<a href={data} download = "TavasyaResume.pdf" >
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
 		{:else}

@@ -21,7 +21,8 @@ const config = {
 			'@components': './src/lib/components',
 			'@md': './src/lib/md',
 			'@stores': './src/lib/stores',
-			'@utils': './src/lib/utils'
+			'@utils': './src/lib/utils',
+			'@docs': './src/docs'
 		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? base : ''

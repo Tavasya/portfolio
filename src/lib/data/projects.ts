@@ -7,59 +7,30 @@ export const items: Array<Project> = [
 		slug: 'mquizzai',
 		color: '#5e95e3',
 		description:
-			'',
+			'MyQuizzAI is a full-stack web application designed to generate quizzes from uploaded documents, developed using TypeScript. It offers seamless Google sign-in through Next-auth and supports payment and subscription services via Stripe. The platform boasts a modern, responsive user interface crafted with Shadcn UI, while data tables are efficiently managed using Tanstack. AI-driven quiz generation is powered by the integration of OpenAI and Langchain, with Drizzle utilized for ORM and PostgreSQL hosted on Supabase for robust database management. Deployed on Vercel, MyQuizzAI attracted over 20 active users within its first month of operation.',
 		shortDescription:
 			'Make your own quizzes with AI!',
 		links: [{ to: 'https://github.com/Tavasya/MyQuizAI', label: 'GitHub' }],
 		logo: Assets.MyQuizzAiLogo,
 		name: 'MyQuizzAi',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('ts', 'js', 'nodejs'),
-		type: 'fgdfg'
+		period: "August 2024",
+		skills: getSkills('ts', 'js', 'nodejs', 'html', 'css'),
+		type: ''
 	},
 	{
 		slug: 'myreps',
 		color: '#ff3e00',
 		description:
-			'',
+			'Rep tracker is a project which utilizes machine learing algorithms to classify certain barbell externeces and count repitions based on a MetaMotion watch which was used to gather gyroscope and accelerometer data. Developed with Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, and Scikit-learn, the project focused on processing this raw sensor data. Noise reduction was achieved through LowPassFilter, and dimensionality reduction was implemented using Principal Component Analysis (PCA). The project handled missing data and outliers using methods like Interquartile Range (IQR), Chauvenet’s Criterion, and Local Outlier Factor (LOF) to ensure clean datasets. Features were engineered through Temporal Abstraction, such as rolling averages, and Frequency Abstraction, including Fourier Transformation, to improve model accuracy. Forward feature selection identified the most relevant features for the models. Various machine learning models, including Random Forests, K-Nearest Neighbors (KNN), Decision Trees, Naive Bayes, and Feedforward Neural Networks, were trained and evaluated using GridSearchCV for hyperparameter tuning and k-fold cross-validation. The project achieved high accuracy in exercise classification, with particular attention to minimizing misclassification between similar exercises. Additionally, sensor data was visualized using Matplotlib and Seaborn to analyze patterns, optimize model parameters, and generate detailed visual reports.',
 		shortDescription:
-			'',
+			'Classify certian barbell excerises and count repitions based on gyroscope and accelerometer data.',
 		links: [{ to: 'https://github.com/Tavasya/MyReps', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Barbell,
 		name: 'Rep Tracker',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		period: "May 2024",
+		skills: getSkills('py', 'pandas', 'numpy', 'skl', 'mpl'),
 		type: 'Website Template',
-		screenshots: [
-			{
-				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '2',
-				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '3',
-				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '4',
-				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '5',
-				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			},
-			{
-				label: '6',
-				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
-			}
-		]
+	
 	}
 ];
 

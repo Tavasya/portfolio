@@ -74,7 +74,14 @@ const Assets = {
 	OpenCv: a('opencv.png'),
 	LangChain: a('langchain.png'),
 	PyTorch: a('pytorch.png'),
-	MyQuizzAiLogo: a('myquizzailogo.png')
+	MyQuizzAiLogo: a('myquizzailogo.png'),
+	Sckitlearn: a('sckit-learn.png'),
+	MatPlotLib: a('mplt.png'),
+	Barbell: a('barbell.png'),
+	TheCoderSchool: a('thecoderschool.png'),
+	SyncopationAI: a('syncopation.png'),
+	Gator: a('gator.png'),
+	Ninja: a('ninja.png'),
 
 };
 

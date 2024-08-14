@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { Experience } from '$lib/types';
-	import { computeExactDuration, getMonthName, getTimeDiff } from '$lib/utils/helpers';
 	import Card from '../Card/Card.svelte';
 	import CardLogo from '../Card/CardLogo.svelte';
 	import CardTitle from '../Card/CardTitle.svelte';
@@ -10,20 +9,13 @@
 	import UIcon from '../Icon/UIcon.svelte';
 	import Chip from '../Chip/Chip.svelte';
 	import CardDivider from '../Card/CardDivider.svelte';
+	import ProjectCard from '../ProjectCard/ProjectCard.svelte';
 
 	export let experience: Experience;
 
 	// const months = getTimeDiff(experience.period.from, experience.period.to);
-	const exactDuration = computeExactDuration(experience.period.from, experience.period.to);
 
-	const from = `${getMonthName(
-		experience.period.from.getMonth()
-	)} ${experience.period.from.getFullYear()}`;
-	const to = experience.period.to
-		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
-		: 'Present';
 
-	const period = `${from} - ${to}`;
 
 	$: info = [
 		{ label: experience.company, icon: 'i-carbon-building' },
@@ -59,14 +51,10 @@
 			<div class="text-[var(--text)] text-[0.9em]">
 				<div class="row items-center gap-2">
 					<UIcon icon="i-carbon-calendar" classes="text-1.25em" />
-					{period}
+					{experience.period}
 				</div>
 				<CardDivider />
-				<div class="row items-center gap-2">
-					<UIcon icon="i-carbon-time" classes="text-1.25em" />
-					{exactDuration}
-				</div>
-				<CardDivider />
+
 			</div>
 			<div class="experience-description text-[0.9em]">{experience.shortDescription}</div>
 			<div class="flex flex-row flex-wrap mt-5">
